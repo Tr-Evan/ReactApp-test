@@ -1,9 +1,10 @@
 import "./App.css";
+import Head from "./header.js";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="hero-title">APP REACT</h1>
+      <Head />
       <div className="container">
         <img className="bg-img" src="/bgForm.jpg" alt="background" />
         <h2>Connectez vous</h2>
@@ -18,7 +19,9 @@ function App() {
           </label>
           <br />
           <div>
-            <button className="button" type="submit">Se connecter</button>
+            <button className="button" type="submit">
+              Se connecter
+            </button>
           </div>
         </form>
       </div>
